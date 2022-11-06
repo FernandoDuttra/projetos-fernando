@@ -1,2 +1,41 @@
-# projetos-fernando
- Projeto criado por Fernando
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <main class="main">
+        <h1 class="h1">Login</h1>
+
+        <form>
+            <div class="email">
+                <label for="email">Email</label>
+                <input class="sublinha" type="email" name="Email" id="email" placeholder="abc@gmail.com">
+            </div>
+            <div class="senha">
+                <label for="password">Senha</label>
+                <input class="sublinha" type="password" name="Senha" id="senha" >
+            </div>
+        </form>
+
+        <div class="botao">
+            <a href="pagentrar.html"><input class="botao" type="submit" value="Entrar"></a>
+        </div>
+        
+        <div id="c-e">
+            <div class="recuperar-senha">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <div class="cadastro">
+                <a href="pagcadastro.html">Crie uma conta</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
