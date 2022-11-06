@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: gray;
+}
+
+main{
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 150px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 15px black;
+}
+
+
+form{
+    margin-top: 70px;
+
+}
+
+.email{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.senha{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.botao{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-style: outset;
+    border-color: rgb(66, 66, 66);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.recuperar-senha > a:hover{
+    text-decoration: underline;
+}
+
+.cadastro > a:hover{
+    text-decoration: underline;
+}
+
+
+a:visited{
+    color: black;
+}
+
+.sublinha{
+    margin-top: 20px;
+    background-color:antiquewhite ;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+
+
+#c-e{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
